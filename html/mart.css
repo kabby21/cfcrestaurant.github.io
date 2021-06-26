@@ -1,0 +1,414 @@
+.header{
+   
+    border:.45em solid rgb(170, 167, 167);
+    border-radius:.5em;}
+
+h2{color: green;
+    font-size:40px;
+    margin:0px;
+    
+}
+
+
+h3{color:red;
+
+text-decoration:underline;
+}
+div{
+    display:flex;
+    flex-direction:row;
+    
+    }
+input[type=text]{
+
+
+width:250%;
+height:100%;
+border-width:.5px;
+border-color:white;
+border-radius:.5em;
+color:rgb(0, 0, 0);
+background-color:rgb(226, 219, 219);
+position:relative;
+left:400px;
+
+
+}
+.submit{
+width:4%;
+height:35px;
+COLOR:rgb(255, 255, 255);
+BACKGROUND-COLOR:rgb(70, 177, 38);
+BORDER-COLOR:WHITE;
+position:relative;
+left:665px;
+top:14px;}
+.submit:hover{
+background-color:blue;
+}
+.a1{
+color:rgb(255, 255, 255);
+position:relative;
+left:980px;
+text-decoration:none;
+
+    
+padding:10px;
+background-color:rgb(70, 177, 38);
+border-radius:.4em;
+border:1.5em;
+
+
+
+}
+
+.a2{ color:rgb(255, 255, 255);
+position:relative;
+left:990px;
+text-decoration:none;
+padding:10px;
+background-color:rgb(70, 177, 38);
+border-radius:.4em;
+}
+.a3{color:rgb(255, 255, 255);
+position:relative;
+left:1030px;
+top:30px;
+text-decoration:none;
+padding:10px;
+background-color:rgb(38, 133, 177);
+border-radius:.7em;
+
+}
+.header{
+    padding:15px;
+    padding-left:35px;
+    background-color:rgb(228, 206, 206);
+
+}
+.aj{
+    width:30px
+}
+
+.a1:hover,.a2:hover{
+    background-color:blue;
+}
+button{
+    background-color:rgb(70, 177, 38);
+    color:rgb(255, 255, 255);
+    
+    border-color:white;
+
+}
+
+    
+
+.nav1{
+    
+    font-size:23px;
+    color:rgb(146, 15, 15);
+    position:relative;
+    left:150px;
+    top:15px;
+    
+}
+.nav{word-spacing:5px;
+
+}
+.nav1:hover{
+    color:green;
+
+}
+
+.main1{
+    margin-top:20px;
+    background-color:rgb(224, 217, 217);
+    
+    display:grid;
+    grid-template-rows:300px 400px 300px 300px 300px;
+    
+}
+.ak{
+    height:300px;
+    border:.125em solid rgb(170, 167, 167);
+    background-color:rgb(224, 217, 217);
+    
+}
+    
+   
+    
+    
+
+.container1{
+    
+    margin-left:65px;
+    margin-top:30px;
+    display:grid;
+    grid-gap:60px;
+    grid-template-columns:300px 300px 300px 300px 300px 300px;
+    background-color:rgb(224, 217, 217);}
+    .al{
+        height:300px;
+        width:1743px;
+        margin-top:80px;
+        margin-left:60px;
+        border:.127em solid rgb(170, 167, 167);
+    }
+    .container2{
+        
+
+    }
+    .am{
+        height:300px;
+        width:840px;
+        margin-top:35px;
+        margin-left:60px;
+        border:.127em solid rgb(170, 167, 167);
+        
+        
+    }
+    .container3{
+
+    }
+    .an{
+        height:300px;
+        width:1743px;
+        margin-top:80px;
+        margin-left:60px;
+        border:.127em solid rgb(170, 167, 167);
+    }
+    .container4{
+
+    }
+    .container5{
+
+    }
+
+    .page{
+        font-size:24px;
+        color:rgb(121, 30, 30);
+        position:relative;
+        left:800px;
+        top:95px;
+    }
+    .number{
+        word-spacing:2px;
+        position:relative;
+        left:860px;
+        bottom:175px;
+    }
+    .number:hover{
+        color:rgb(230, 17, 17);
+    }
+    .footer{
+        background-color:rgb(224, 217, 217);
+    }
+    .download{
+        font-size:24px;
+        margin-left:60px;
+        position:relative;
+        bottom:230px;
+        color:rgb(167, 27, 17);
+    }
+    .android{
+        height:35px;
+        position:relative;
+        right:240px;
+        bottom:160px;
+
+    }
+    .ios{height:35px;
+        position:relative;
+        right:230px;
+        bottom:160px;
+
+    }
+    .verify{
+        height: 100px;
+        width:300px;
+        position:relative;
+        right:470px;
+        bottom:100px;}
+        
+
+
+        .policy{
+            color:rgb(146, 13, 13);
+            WORD-SPACING:5PX;
+            FONT-SIZE:20PX;
+            text-decoration:none;
+            position:relative;
+            right:200px;
+            top:50px;
+
+        }
+        .policy:hover{
+            color:blue;
+        }
+        .copyright{
+            text-align:center;
+            text-decoration:underline
+        }
+        
+        @media screen and (max-width:748px)
+        {
+            div ,h2,h3,.navbar,.img{
+                display:block;
+                display:flex;
+                flex-direction:column;
+                
+                
+                
+            }
+        }
+        @media screen and (max-width:748px){
+            input[type=text]{
+                width:90px;
+                height:25px;
+                position:absolute;
+                left:110px;
+                top:115px;}}
+                
+                @media screen and (max-width:748px){
+                    .submit{
+                        width:65px;
+                        height:30px;
+                        position:absolute;
+                        left:205px;
+                        top:115px;
+                    }
+                    @media screen and (max-width:748px){
+                        .a1{
+                            font-size:14px;
+                            width:45px;
+                            height:10px;
+                            position:absolute;
+                            left:250px;
+                            bottom:770px;}}
+
+
+                        
+                        @media screen and (max-width:748px){
+                            .a2{
+                                font-size:12px;
+                                width:53px;
+                                height:10px;
+                                position:absolute;
+                                left:320px;
+                                bottom:770px;}}
+                                @media screen and (max-width:748px){
+                                    .a3{width:7-px;
+                                        height:10px;
+                                        position:absolute;
+                                        left:300px;
+                                        top:115px;
+                                    }}
+                                    @media screen and (max-width:748px){h3{
+                                        position:absolute;
+                                        left:180px;
+                                        top:45px;
+                                        
+                                    }
+                                    @media screen and (max-width:748px){
+                                        .nav1{
+                                            display:flex;
+                                            align-content:center;
+                                            text-align:center;
+                                        }
+                                    }
+                                    @media screen and (max-width:748px){
+                                        .container1{
+                                            position:absolute;
+                                            display:flex;
+                                           flex-direction:column;
+
+                                        } 
+                                    }
+                                    @media screen and (max-width:748px){
+                                        .al{height:300px;
+                                            width:300px;
+                                            position:absolute;
+                                            top:2300px;
+                                            display:flex;
+                                            flex-direction:column;
+                                        }}
+                                        @media screen and (max-width:748px){
+                                            .am{height:300px;
+                                                width:300px;
+                                                position:absolute;
+                                                top:2720px;
+                                                display:flex;
+                                                flex-direction:column;
+                                            }}
+                                            @media screen and (max-width:748px){
+                                                .an{height:300px;
+                                                    width:300px;
+                                                    position:absolute;
+                                                    top:3050px;
+                                                    display:flex;
+                                                    flex-direction:column;
+                                                }}
+                                                @media screen and (max-width:748px){
+                                           .number{                         position:absolute;
+                                            top:3450px;
+                                            left:250px;
+                                            display:flex;
+                                            flex-direction:column;
+                                            display:flex;
+                                                 flex-direction:row;
+                                       }}
+                                            @media screen and (max-width:748px){
+                                                .page{                         position:absolute;
+                                                 top:3425px;
+                                                 left:190px;}
+                                                 
+                                                 @media screen and (max-width:748px){.download{
+                                                     color:blue;
+                                                     position:absolute;
+                                                     top:3470px;
+                                                 }
+                                                }
+                                                @media screen and (max-width:748px){.android{
+                                                    width:80px;
+                                                    height:35px;
+                                                    
+                                                    position:absolute;
+                                                    top:3540px;
+                                                    right:320px;
+                                                }
+                                               }
+                                               @media screen and (max-width:748px){.ios{
+                                                width:80px;
+                                                height:35px;
+                                                
+                                                position:absolute;
+                                                top:3540px;
+                                                right:230px;
+                                            }
+                                           }
+                                           @media screen and (max-width:748px){.policy{
+                                                 
+                                            position:absolute;
+                                            top:3580px;
+                                            right:100px;
+                                            
+                                            
+                                            
+                                            display:flex;
+                                            flex-direction:top;
+                                            word-spacing:20px;
+                                            font-size:15px;
+                                        }}
+                                            @media screen and (max-width:748px){.copyright{
+                                                 
+                                                position:absolute;
+                                                top:3640px;
+                                                right:100px;
+                                                
+                                                display:flex;
+                                                flex-direction:top;
+                                                word-spacing:20px;
+                                                font-size:15px;}}
+                                               
+
+                                   

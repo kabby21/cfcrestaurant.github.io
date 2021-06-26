@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cfc.com</title>  
+    <link rel="stylesheet" href="mart.css">
+    
+</head>
+<body>
+    
+
+    <header>
+    <div class="header">
+
+    
+    <h2>CFC RESTAURANT</h2>
+    <h3>ready</h3>
+    <p> <input type="text" ></p>
+    <button class="submit">SEARCH</button>
+    <p>
+        <a href="" class="a1">SIGNIN</a>
+        <a href="/html/signup.html" target="_blank" class="a2">REGISTER</a>&nbsp;&nbsp;
+        <a href="/html/payment.html" target="_blank"  class="a3">Add to Cart</a>
+    </p>
+</div></header>
+
+
+
+<div class="navbar">
+    <img class="aj" src="download.png" alt="">
+    <script type="text/javascript">
+        var subcategory = {
+            PIZZA: ["SPECIAL CFC WITH CHEESE ", "PANEER MAKHANI", "VEGGY PIZZA", "NON VEG PIZZA"],
+            HOTDOG: ["VEG", "NONVEG","FULLCHEESE"],
+            SANDWICH: ["SALAD SANDWICH","CHICKEN","CHEESE","SPECIAL"],
+            HAMBURGER: ["CHICKEN","MAYONI CHEESE"],
+            FRIEDCHICKEN: ["WINGS","BONE","BONELESS"]
+        }
+
+        function makeSubmenu(value) {
+            if (value.length == 0) document.getElementById("categorySelect").innerHTML = "<option></option>";
+            else {
+                var citiesOptions = "";
+                for (categoryId in subcategory[value]) {
+                    citiesOptions += "<option>" + subcategory[value][categoryId] + "</option>";
+                }
+                document.getElementById("categorySelect").innerHTML = citiesOptions;
+            }
+        }
+
+        function displaySelected() {
+            var country = document.getElementById("category").value;
+            var city = document.getElementById("categorySelect").value;
+            alert(country + "\n" + city);
+        }
+
+        function resetSelection() {
+            document.getElementById("category").selectedIndex = 0;
+            document.getElementById("categorySelect").selectedIndex = 0;
+        }
+    </script>
+</head>
+<body onload="resetSelection()">
+    <select id="category" size="1" onchange="makeSubmenu(this.value)">
+<option value="" disabled selected>Choose Category</option>
+<option> PIZZA</option>
+<option> HOTDOG</option>
+<option>SANDWICH</option>
+<option> HAMBURGER</option>
+<option> FRIEDCHICKEN</option>
+
+</select>
+    <select id="categorySelect" size="1">
+<option value="" disabled selected>Choose Subcategory</option>
+<option></option>
+</select>
+    <button onclick="displaySelected()">show selected</button>
+    <div class="nav">
+
+    <a href="" target="_blank" class="nav1">VEG ITEM</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="" target="_blank" class="nav1">NONVEG ITEM</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="" target="_blank" class="nav1">STARTER</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="" target="_blank" class="nav1">MAINCOURSE</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="" target="_blank" class="nav1">DRINKS</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</div></div>
+
+<main class="main1">
+<div class="container1">
+    <a href=" " target="_blank"> <img class="ak" src="/media/images/A.PNG" alt="">CHICKEN BIRYANI </a>
+    <a href=" "target="_blank"><img class="ak" src="/media/images/B.PNG" alt="">SHAHI PANEER </a>
+    <a href=" "target="_blank"> <img class="ak" src="/media/images/C.jpg" alt="">MASALA DOSA </a>
+    <a href=" "target="_blank"> <img class="ak" src="/media/images/D.PNG" alt="">DRY MANCHURIAN </a>
+    <a href=" "target="_blank"> <img class="ak" src="/media/images/E.PNG" alt="">DOMINOS PIZZA </a></div>
+    <div class="container2">
+        <a href="">
+            <img class="al" src="/media/images/2A.jpg" alt=""></a>
+        
+        </div>
+        <div calss="container3">
+            <a  href="">
+                <img target="_blank" class="am" src="/media/images/2B.jpg" alt=""></a>
+            
+            <a  href="">
+                <img target="_blank" class="am" src="/media/images/2C.jfif" alt=""></a></div>
+            
+            <div class="container4">
+                <a href="">
+                    <img target="_blank" class="an" src="/media/images/2D.jpg" alt="">
+                </a></div>
+         <p class="page">Page </p>
+
+         <div class="number">
+             <a  href="" target="_blank">1</a>&nbsp;&nbsp;
+             
+             <a href="" target="_blank">2</a>&nbsp;&nbsp;
+             <a href="" target="_blank">3</a>&nbsp;&nbsp;
+             <a href="" target="_blank">4</a>&nbsp;&nbsp;
+             <a href="" target="_blank">Next</a>&nbsp;&nbsp;
+         </div></main>
+
+
+         <div class="footer">
+
+             <p class="download">
+                 Download A2Zmart Now
+             </p>
+             
+
+         
+         <a href=""target="_blank">
+         <img target="_blank" class="android" src="/media/images/ANDROID.PNG" alt=""></a>
+         
+         <a href=""target="_blank">
+             <img target="_blank" class="ios" src="/media/images/IOS.png" alt=""></a>
+            <a  href="" target="_blank"><img class="verify" src="/media/images/VERIFY.jfif" alt=""></a>
+            <p class="policy">
+                <a href=""  target="_blank">FAQS</a>&nbsp;
+                <a href="" target="_blank">PRIVACY POLICY</a>&nbsp;
+                <a href=""target="_blank">RETURN REFUND</a>&nbsp;
+                <a href="" target="_blank"> TERMS CONDITION </a>&nbsp;
+                <a href="" target="_blank"> CONTACT US</a>&nbsp;
+               
+            </p>
+           
+        
+        </div>
+        <p class="copyright">
+            Copyright &copy; 2021 Avenue E-Commerce Limited . ALL RIGHT RESERVED
+        </p>
+
+
+         
+               
+
+            
+
+        
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+    
+</body>  
+
+
+</html>

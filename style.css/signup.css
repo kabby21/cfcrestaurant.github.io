@@ -1,0 +1,14 @@
+body{background-color:blanchedalmond;
+    margin:0;
+}
+h2,p{
+    position: relative;
+    left:75px;
+    width:200px;
+    display:block;
+}
+input[type text=text]{
+    width:300;
+    display:inline;
+}
+
